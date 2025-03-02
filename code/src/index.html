@@ -1,0 +1,83 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root {
+        background-image: url("./wallpaper.png");
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    @media (min-width: 1025px) {
+        .container {
+            /* flex-direction: row; */
+            padding: 0px 100px 0px 100px;
+        }
+
+        aside {
+            flex-grow: 1;
+        }
+
+        main {
+            flex-grow: 2;
+        }
+    }
+
+    header {
+        padding: 0;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .card {
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 15px;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 2rem black;
+    }
+</style>
+<header>
+    <h1>OpenMalus</h1>
+</header>
+<div class="container">
+    <aside>
+        <div class="card">
+            <h2>目录</h2>
+            <ul>
+                <li><a href="#lycoris">Lycoris</a></li>
+                <li><a href="#punica">Punica</a></li>
+            </ul>
+        </div>
+    </aside>
+    <main>
+        <div class="card" id="lycoris">
+            <h2>Lycoris</h2>
+            Lycoris是跨平台即时通讯工具。
+        </div>
+        <div class="card" id="lycoris">
+            <h2>Punica</h2>
+            Punica是构建系统。
+        </div>
+        <div class="card" id="lycoris">
+            <h2>Punica</h2>
+            Punica是构建系统。
+        </div>
+        <div class="card" id="lycoris">
+            <h2>Punica</h2>
+            Punica是构建系统。
+        </div>
+        <div class="card" id="lycoris">
+            <h2>Punica</h2>
+            Punica是构建系统。
+        </div>
+    </main>
+</div>
+<!-- class="card" id="punica" -->

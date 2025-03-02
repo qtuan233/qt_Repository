@@ -1,0 +1,18 @@
+#top-head-left img {
+    height: 60px;
+    display: flex;
+}
+
+#top-head-left {
+    height: 60px; /* 匹配图片高度 */
+    width: 60px;
+}
+
+#top-head-cearch {
+    float: right; /* 如果需要 */
+}
+
+.head-down {
+    margin: 0 auto;
+    padding: 30px;
+}
